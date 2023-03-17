@@ -1,3 +1,5 @@
+/*Iniciar a Estrutura*/
+
 *{
     margin: 0;
     border: 0;
@@ -74,14 +76,57 @@ body{
         margin: 0 auto;
         max-width: 95%;
     }
+    .conteudo-corpo{
+        font-size: 1.6rem;
+        background: linear-gradient(to bottom, #0000cd, #D3D3D3);
+        padding: 1.5rem;
+        text-align: justify;
+        margin: 0 auto;
+        max-width: 100%;
+        padding-top: 3rem;
+    }
+
+    @media (min-width: 300px) and (max-width: 840px){
+        .grid-corpo{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 1px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+    }
+
     #grid-conteudo{
         background: linear-gradient(to bottom, #0000cd, #D3D3D3);
         font-family: arial;
         border: solid #000;
-        
+
+    }
+    /* Aqui inicia a configuracao de GRIDs para o Topo */
+
+    #grid-conteudo-corpo{
+      text-align: center;
+      border-radius: 20px;
+
 
 
     }
+    .grid-corpo{
+        display: grid;
+        grid-template-columns: 480px 1fr;
+        grid-gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .grid div#corpo{
+        text-align: center;
+        padding: 1px;
+        padding-bottom: 5px;
+    }
+
+    /* Aqui termina a configuracao de GRIDs para o Topo */
+
     .conteudo-topo{
         font-size: 1.6rem;
         background-color: #FFF;
@@ -122,6 +167,7 @@ p{
         
     }
 
+/*Criando as Fontes do Site*/
 
 }
 h1{
@@ -189,7 +235,7 @@ h5{
         position: fixed;
         text-align: center;
         z-index: 1;
-        margin-right: 10%;
+        margin-right: 5%;
     
     }
 
@@ -237,9 +283,8 @@ button{
     grid-gap: 1px;
     max-width: 1200px;
     margin: 0 auto;
-
-
 }
+
 .grid div{
     background-color: #fff;
     font-family: arial;
@@ -322,6 +367,12 @@ a:hover{
         height: 10%;
     
     }
+}
+
+.imagens-corpo{
+    width: 80%;
+    height: 70%;
+
 }
 #logo-topo{
     width: 12%;
@@ -416,3 +467,4 @@ a:hover{
     }
 
 }
+
