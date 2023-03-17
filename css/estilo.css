@@ -86,17 +86,6 @@ body{
         padding-top: 3rem;
     }
 
-    @media (min-width: 300px) and (max-width: 840px){
-        .grid-corpo{
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            grid-gap: 1px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-    }
-
     #grid-conteudo{
         background: linear-gradient(to bottom, #0000cd, #D3D3D3);
         font-family: arial;
@@ -109,8 +98,6 @@ body{
       text-align: center;
       border-radius: 20px;
 
-
-
     }
     .grid-corpo{
         display: grid;
@@ -118,11 +105,24 @@ body{
         grid-gap: 20px;
         max-width: 1200px;
         margin: 0 auto;
+        color: #FFF;
+        text-shadow: 1px 1px #000;
     }
     .grid div#corpo{
         text-align: center;
         padding: 1px;
         padding-bottom: 5px;
+    }
+    @media (min-width: 300px) and (max-width: 840px){
+        .grid-corpo{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 1px;
+            max-width: 1200px;
+            margin: 0 auto;
+            color: #FFF;
+            text-shadow: 1px 1px #000;
+        }
     }
 
     /* Aqui termina a configuracao de GRIDs para o Topo */
