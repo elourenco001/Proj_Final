@@ -10,6 +10,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <script type="text/javascript">
+            let nome = prompt('Gostaria de um experiência personalizada e acesso a descontos exclusivos? Caso SIM por favor insira o seu primeiro nome')
+
+
+        </script>
+        
     </head>
     <body>
         <header>
@@ -17,7 +23,8 @@
                     <a href="#cursos">CURSOS</a>
                     <a href="#dicas">DICAS</a>
                     <a href="#DEV">DEV</a>
-                    <a href="login.html">LOGIN</a>
+                    <a href="index.html">SAIR</a>
+                    
                 </nav>
                 <img class="imagens-site" id="logo-topo" src="img/logo-tec-site.png" alt="Logo TECTREINAMENTOS">
 
@@ -32,7 +39,13 @@
                     <img class="imagens-corpo" src="img/boneco.png" alt="Imagem Topo Treinamentos" >
                 </div>
                 <div>
-                    
+                    <br>
+                    <div class="personalizacao" >
+                        <script type="text/javascript">
+                            document.write('Seja bem vindo(a) '+nome)
+
+                        </script>
+                    </div>
                     <br><br>
                     <h2 id="titulo-topo">TRANSFORME SUA CARREIRA. <br> APRENDA COM UM ESPECIALISTA <br> TORNE-SE UM DEV WEB</h2>
                     <br>
@@ -55,7 +68,14 @@
            <h1>APRENDA DESENVOLVIMENTO DE SITES</h1>
            <!--Aqui será inserido o video do Cabecalho como apresentacao-->
             <br>
-                 
+            <br>
+            <div class="personalizacao" >
+                <script type="text/javascript">
+                    document.write(''+nome+', veja abaixo um vídeo sobre o treinamento oferecido pela TecTreinamentos')
+
+                </script>
+            </div>
+            <br>  
            <div class="video" >
             <iframe width="560" height="315" src="https://www.youtube.com/embed/pYqScYQZ-o8" title="YouTube video player" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -74,8 +94,15 @@
         </div>
            <!-- Aqui vamos mostrar uma lista com passo a passo para iniciantes na área de DEV Web  -->
             <section class="container" >
-               
-                <h2>QUE SE TORNAR UM(A) DESENVOLVEDOR(A) DE SUCESSO? VAMOS AO PASSO A PASSO</h2>
+                <br>
+                <div class="personalizacao" >
+                    <script type="text/javascript">
+                        document.write(''+nome+', você gostaria de ')
+
+                    </script>
+                </div>
+                 <br> 
+                <h2>SE TORNAR UM(A) DESENVOLVEDOR(A) DE SUCESSO? VAMOS AO PASSO A PASSO</h2>
                 <p>Vamos listar aqui tudo o que você precisa para ter sucesso na área de desenvolvimento web </p>
                 <ul>
                     <li>Aprenda HTML e CSS</li>
@@ -241,8 +268,16 @@
                 <br><br>
                     <a href="#" id="DEV"></a>
                 <div class="desenvolvedor">
-                    <h2>Sobre o Autor: </h2>
-                    <h3>Desenvolvedor OliverLourenco</h3><br>
+                    <h2>Desenvolvedor OliverLourenco </h2>
+                    
+                    <br>
+                <div class="personalizacao" >
+                    <script type="text/javascript">
+                        document.write('Olá '+nome+', é uma enorme satisfação tê-lo(a) conosco ')
+
+                    </script>
+                </div>
+                 <br> 
                     <figure>
                         <img class="imagens-site-autor" src="img/Cartoonify (1).png" alt="Imagem de Perfil">
                     </figure>
@@ -253,9 +288,13 @@
                     planejando fazer uma transição de carreira para DEV Front End, então meu objetivo traçado para 
                     2023 era me tornar um DEV pois sempre foi minha paixão.
                 </p>
-
+                    <img class="seta-oferta" src="img/seta.png" alt="PROMOÇÂO EXCLUSIVA">
+                    <br>
+                    <br>
+                     <a href="#" class="botao-acao" >VER OFERTA</a>
+                     <br>
                 </div>
-
+                
             </section>
             <br>
         <footer>

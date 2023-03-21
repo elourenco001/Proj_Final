@@ -585,4 +585,21 @@ figcaption{
 
 
 }
+.personalizacao{
+    background-color: #ffff00;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem;
+    width: 60%;
+    border-radius: 20px;
+    color: #000;
+    margin: 0 auto;
+    text-shadow: none;
+
+}
+.seta-oferta{
+    width: 20%;
+    height: 10%;
+}
 
